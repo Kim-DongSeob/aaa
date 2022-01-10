@@ -11,7 +11,7 @@ db = client.chapter01
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('mainPage.html')
 
 
 if __name__ == '__main__':
